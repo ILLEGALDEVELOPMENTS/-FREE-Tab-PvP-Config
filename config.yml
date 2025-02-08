@@ -1,0 +1,168 @@
+# https://github.com/ILLEGALDEVELOPMENTS/-FREE-Tab-PvP-Config
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '&#FB6308ʏ&#FB7321ᴏ&#FC8239ᴜ&#FC9252ʀ &#FDB184s&#FDC19Cᴇ&#FED0B5ʀ&#FEE0CEᴠ&#FFEFE6ᴇ&#FFFFFFʀ'
+  - ''
+  footer:
+  - ''
+  - '&f↘ &7ᴊᴏɪɴ ᴏᴜʀ ᴅɪsᴄᴏʀᴅ ᴀɴᴅ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ! &f↙'
+  - '&a➟ &#081AFBᴅ&#1728FBs&#2737FCᴄ&#3645FC.&#4653FCɢ&#5562FCɢ&#6570FD/&#747EFDʏ&#848DFDᴏ&#939BFDᴜ&#A2A9FEʀ&#B2B7FEs&#C1C6FEᴇ&#D1D4FEʀ&#E0E2FFᴠ&#F0F1FFᴇ&#FFFFFFʀ'
+  - ''
+  - '&f↘ &7ʏᴏᴜ ᴀʀᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ &ePvP'
+  - '&7ᴛʜᴇʀᴇ ᴀʀᴇ &3&l%online% &7ᴘʟᴀʏᴇʀs ᴏɴʟɪɴᴇ ɪɴ ɴᴇᴛᴡᴏʀᴋ!'
+  - ''
+  - '&7ᴘᴜʀᴄʜᴀsᴇ ʀᴀɴᴋs & ᴏᴛʜᴇʀ sᴛᴜғғ ғʀᴏᴍ &#4afbd9&lD&#40ebdf&lI&#36dbe5&lS&#2ccceb&lC&#22bcf1&lO&#18acf7&lR&#0e9cfd&lD'
+  - ''
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  disable-condition: '%world%=disabledworld'
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:founder,owner,executive,hmanager,manager,jrmanager,admin,mod,shield,motion,critical,ace,famous,media,staff,hero,tstaff,vip,elite,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  unlimited-nametag-mode:
+    enabled: true
+    disable-on-boats: true
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-condition: '%world%=disabledworld'
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: true
+  number: '%health%'
+  text: '&c❤ &f'
+  disable-condition: '%world%=disabledworld'
+  fancy-display-default: NPC
+  fancy-display-players: '&c%health%'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&#fb6868&lP&#f5666f&ll&#ee6476&la&#e8637c&ly&#e26183&li&#db5f8a&ln&#d55d91&lg
+        &#ce5c97&lT&#c85a9e&lh&#c258a5&le &#bb56ac&lB&#b555b3&le&#af53b9&ls&#a851c0&lt
+        &#a24fc7&lP&#9c4dce&lv&#954cd4&lP &#8f4adb&lS&#8848e2&le&#8246e9&lr&#7c45ef&lv&#7543f6&le&#6f41fd&lr '
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard1:
+      title: '&#FB6308ʏ&#FB7321ᴏ&#FC8239ᴜ&#FC9252ʀ &#FDB184s&#FDC19Cᴇ&#FED0B5ʀ&#FEE0CEᴠ&#FFEFE6ᴇ&#FFFFFFʀ'
+      lines:
+      - '      &7⌚ &7%date%'
+      - '&r'
+      - '&fᴋɪʟʟs: &6%statistic_player_kills%'
+      - '&fᴅᴇᴀᴛʜ: &6%statistic_deaths%'
+      - '&fᴋᴅʀ: &6%kdratio_ratio%'
+      - ''
+      - '&fᴘɪɴɢ: &6%ping%'
+      - '&fsᴛʀᴇᴀᴋ: &6%slipcorpvpstats_streak%'
+      - '&fʙᴇsᴛ sᴛʀᴇᴀᴋ: &6%slipcorpvpstats_maxstreak%'
+      - '&r'
+      - '&7ᴘᴠᴘ.ʏᴏᴜʀsᴇʀᴠᴇʀ.xʏᴢ'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &e&o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player_name%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+use-online-uuid-in-tablist: true
+global-playerlist:
+  enabled: false
+layout:
+  enabled: false
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'
+ping-spoof:
+  enabled: false
