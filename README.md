@@ -5,11 +5,11 @@
 
 ## REQUIRED PLUGINS :
 
-`` 1. Tab ➡ https://modrinth.com/plugin/tab-was-taken/versions
+1. Tab ➡ https://modrinth.com/plugin/tab-was-taken/versions
 
 2. PlaceHolderAPI ➡ https://www.spigotmc.org/resources/placeholderapi.6245/
 
-3. PvPStats ➡ https://www.spigotmc.org/resources/pvp-stats.59124/ ``
+3. PvPStats ➡ https://www.spigotmc.org/resources/pvp-stats.59124/
 
 
 ## Java Version : Java 17-21
@@ -29,4 +29,7 @@ INSTALLATION PROCESS :
 3. /papi ecloud dowload statistic
 4. /papi reload ``
 # Done Your Tab is ready
+### Download Link ➡ https://www.mediafire.com/file/0sn90umg9cam2lz/config.yml/file
+### Scoreboard Preview ➡ https://ibb.co/Fqg3kgsT
+### Tab Preview ➡ https://ibb.co/5X2BcfcS
 
